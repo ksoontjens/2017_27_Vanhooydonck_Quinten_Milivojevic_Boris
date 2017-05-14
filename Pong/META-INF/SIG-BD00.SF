@@ -1,0 +1,29 @@
+Signature-Version: 1.0
+Created-By: 1.6.0_16 (Sun Microsystems Inc.)
+BDJ-Signature-Version: 1.0
+SHA1-Digest-Manifest: EpSd2Xycy/JosJI34Lc/pa0kwUU=
+
+Name: hellotvxlet/HelloTVXlet.class
+SHA1-Digest: AyOnbZD2c7mYMT7Z33blTZUr0ok=
+
+Name: hellotvxlet/HelloTVXlet$1.class
+SHA1-Digest: Cy9co15Tl8vEhs+MVtkoTAtqWU4=
+
+Name: hellotvxlet/KeyListener$1.class
+SHA1-Digest: bF51ZampLIq69p4NcZFWdLKqgtA=
+
+Name: hellotvxlet/ScoreBoard.class
+SHA1-Digest: 2gDai2D4X3p+DVLvPzB7qpsK7j8=
+
+Name: hellotvxlet/KeyListener.class
+SHA1-Digest: Xnhs8ZqNNdix46+IUK1beNMWG4s=
+
+Name: hellotvxlet/Paddle.class
+SHA1-Digest: IpFHY+hYAwgpdryU78ii85Yn7Fg=
+
+Name: hellotvxlet/bluray.HelloTVXlet.perm
+SHA1-Digest: 84ZO/rYCyy0JStmaLbg1GDVEFhQ=
+
+Name: hellotvxlet/GameHandler.class
+SHA1-Digest: NqkUQUNWSacndMbmTaiYgRI/dMM=
+
