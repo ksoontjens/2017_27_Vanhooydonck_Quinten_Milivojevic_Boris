@@ -48,7 +48,7 @@ public class Paddle {
     
     //returns min x, max x and min y max y
     public Rectangle getBounds(){
-        return new Rectangle(position.x - WIDTH/2, position.y - HEIGHT/2, position.x + WIDTH/2, position.y + HEIGHT/2);
+        return new Rectangle(position.x - WIDTH/2, position.y - HEIGHT/2, WIDTH, HEIGHT);
     }
     
 }

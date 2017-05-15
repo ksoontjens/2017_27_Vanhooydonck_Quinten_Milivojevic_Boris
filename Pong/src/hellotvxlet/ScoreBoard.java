@@ -15,7 +15,7 @@ import java.awt.Point;
  */
 public class ScoreBoard {
 
-    private final int MAX_SCORE = 90;
+    private final int MAX_SCORE = 9;
     
     private Point position;
     

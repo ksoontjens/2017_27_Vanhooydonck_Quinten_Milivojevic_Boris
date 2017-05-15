@@ -16,6 +16,8 @@ public class GameHandler {
 public Paddle player1;
 public Paddle player2;
 
+public Ball ball;
+
 public ScoreBoard scoreBoard;
     
 public static int sceneWidth, sceneHeight;
@@ -37,7 +39,10 @@ public GameHandler(int sceneWidth, int sceneHeight){
     
     player1 = new Paddle(50, sceneHeight/2);
     player2 = new Paddle(sceneWidth - 50, sceneHeight/2);
+    
     scoreBoard = new ScoreBoard();
+    
+    ball = new Ball(sceneWidth/2, sceneHeight/2, this, scoreBoard);
 }
     //updates every frame
     public void update(){
@@ -53,7 +58,7 @@ public GameHandler(int sceneWidth, int sceneHeight){
             player1.update(KeyListener.w, KeyListener.s);
             player2.update(KeyListener.up, KeyListener.down);
             //Update ball
-            
+            ball.update(pressedSpace());
             //update scoreboard
             //scoreBoard.addScore(<winner (true = p1, false = p2)>);
             if(scoreBoard.getGameOver()){
@@ -83,6 +88,7 @@ public GameHandler(int sceneWidth, int sceneHeight){
         player1.paint(g);
         player2.paint(g);
         //paint ball
+        ball.paint(g);
         scoreBoard.paint(g);
     }
     
