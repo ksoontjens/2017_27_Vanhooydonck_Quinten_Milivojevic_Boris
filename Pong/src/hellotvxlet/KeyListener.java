@@ -27,6 +27,10 @@ public class KeyListener {
         
         eventRepository = new UserEventRepository("pong controls");
         eventRepository.addAllArrowKeys();
+        eventRepository.addAllNumericKeys();
+        eventRepository.addKey(HRcEvent.VK_ENTER);
+        
+        //keyboard controls
         eventRepository.addKey(HRcEvent.VK_W);
         eventRepository.addKey(HRcEvent.VK_Z);
         eventRepository.addKey(HRcEvent.VK_S);
@@ -51,9 +55,12 @@ public class KeyListener {
         
         switch(e.getCode()){
             case HRcEvent.VK_UP:
+            case HRcEvent.VK_RIGHT:
                 up = isKeyDown;
                 break;
             case HRcEvent.VK_DOWN:
+            case HRcEvent.VK_LEFT:
+            case HRcEvent.VK_6:
                 down = isKeyDown;
                 break;
             case HRcEvent.VK_Z:
@@ -61,9 +68,11 @@ public class KeyListener {
                 w = isKeyDown;
                 break;
             case HRcEvent.VK_S:
+            case HRcEvent.VK_4:
                 s = isKeyDown;
                 break;
             case HRcEvent.VK_SPACE:
+            case HRcEvent.VK_ENTER:
                 space = isKeyDown;
                 break;
         }

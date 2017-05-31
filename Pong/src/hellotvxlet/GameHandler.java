@@ -77,7 +77,7 @@ public GameHandler(int sceneWidth, int sceneHeight){
         
         if(gameState == START){
             g.setColor(Color.WHITE);
-            String startString = "press space to start";
+            String startString = "press OK to start";
             g.drawString(startString, sceneWidth/2 - g.getFontMetrics().stringWidth(startString)/2, 250);
         }else if (gameState == GAME_OVER){
             g.setColor(Color.WHITE);
