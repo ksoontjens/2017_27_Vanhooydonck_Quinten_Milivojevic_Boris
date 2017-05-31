@@ -60,11 +60,11 @@ public class KeyListener {
                 break;
             case HRcEvent.VK_DOWN:
             case HRcEvent.VK_LEFT:
-            case HRcEvent.VK_6:
                 down = isKeyDown;
                 break;
             case HRcEvent.VK_Z:
             case HRcEvent.VK_W:
+            case HRcEvent.VK_6:
                 w = isKeyDown;
                 break;
             case HRcEvent.VK_S:
